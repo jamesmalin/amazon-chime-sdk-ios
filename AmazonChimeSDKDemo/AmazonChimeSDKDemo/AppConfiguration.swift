@@ -9,6 +9,6 @@
 import Foundation
 
 struct AppConfiguration {
-    static let url = "YOUR_SERVER_URL"
-    static let region = "YOUR_SERVER_REGION"
+    static let url = "https://eszrfurmz0.execute-api.us-west-2.amazonaws.com/Prod/"
+    static let region = "us-west-2"
 }

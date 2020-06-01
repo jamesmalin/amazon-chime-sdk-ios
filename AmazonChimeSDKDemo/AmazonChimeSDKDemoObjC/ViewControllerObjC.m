@@ -197,7 +197,7 @@
 
 - (void)updateUIWithMeetingStarted:(BOOL) started {
     dispatch_async(dispatch_get_main_queue(), ^{
-        [self.titleLabel setText:started ? @"Meeting started" : @"Join a meeting"];
+        [self.titleLabel setText:started ? @"Meeting started" : @"Watch Ride Video"];
         [self.meetingIDText setEnabled:!started];
         [self.nameText setEnabled:!started];
         [self.joinButton setHidden:started];
